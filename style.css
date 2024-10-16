@@ -32,3 +32,33 @@ p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
