@@ -70,7 +70,7 @@ p{
 
 /*Boxes*/
 .welcomeBox{
-    width: 200px;
+    width: 400px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -87,6 +87,17 @@ p{
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    box-shadow: 10px 10px white;
+}
+
+.sideBox{
+    width: 430px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: grey;
     box-shadow: 10px 10px white;
 }
 
