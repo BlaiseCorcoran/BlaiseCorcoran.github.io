@@ -1,6 +1,6 @@
 /*General Layout Rules*/
 body{
-    background-color: black;
+    background-color: coral;
 }
 
 h1{
@@ -75,9 +75,9 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: #fa8072;
     font-size: x-large;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px pink;
 }
 
 .pictureBox{
@@ -87,7 +87,7 @@ p{
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px #ffc0cb;
 }
 
 .sideBox{
@@ -97,8 +97,8 @@ p{
     justify-content: center;
     align-items: center;
     font-size: small;
-    background-color: grey;
-    box-shadow: 10px 10px white;
+    background-color: salmon;
+    box-shadow: 10px 10px pink;
 }
 
 
@@ -127,3 +127,14 @@ p{
 		opacity: 1;
 	}
 }
+
+/*Image Fade-In Fade-Out*/
+.fade-in-image {
+    opacity: 0.5; /* Start partially transparent */
+    transition: opacity 0.5s ease-in-out; /* Smooth fade */
+  }
+  
+  .fade-in-image:hover {
+    opacity: 1; /* Fully visible on hover */
+  }
+  
